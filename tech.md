@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 技术痴
+title: 技术
 permalink: /tech/
 ---
-> 哪里跌倒，就在哪里睡觉！ --------当代著名睡眠学家**大衣申**
+> 我不会修电脑的
 {% for post in site.posts %}
 {% if post.categories contains 'tech' %}
 *{{post.date | date: "%b %-d, %Y" }}*   

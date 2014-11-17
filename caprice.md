@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 狂想者
+title: 日常
 permalink: /caprice/
 ---
-> 给我一双筷子，我能吃掉整个地球！ --------当代著名美食家**大衣申**
+> 我还是井里的单细胞生物
 
 {% for post in site.posts %}
 {% if post.categories contains 'caprice' %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 「推荐」一些工具类的网站
+title: 一些工具类的网站
 categories: tech
 published: true
 ---
@@ -39,7 +39,4 @@ published: true
 
 
 <br/> 
-*****
 
-
-**本文章持续更新，赶快纳入收藏夹吧。**
