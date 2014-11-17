@@ -1,16 +1,14 @@
 # Site settings
-title: ▦ Milesss
-email: happlex@qq.com
-qq: 420079939
+title: Milesss
+email: 
+qq: 
 description: > # this means to ignore newlines until "baseurl:"
-  终于有自己的博客啦！
-  晚些时候可能会发点随笔和一些技术教程。
-  欢迎大家光临！~
+  终于有自己的博客啦
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://happlex.github.io/" # the base hostname & protocol for your site
+url: "http://github.io/" # the base hostname & protocol for your site
 twitter_username: 
-github_username:  Happlex
-zhihu_username: Happlex
+github_username:  
+zhihu_username: 
 pages: tech caprice about
 
 # Build settings
