@@ -1,9 +1,9 @@
-﻿---
-title: History
-layout: history
-pid: 734352562
-group: navigation
 ---
+layout: page
+title: History
+pid: 234343434
+---
+<br />
 
 - **0.0.1 : 2014.11.19**
     - **Features**
@@ -11,3 +11,5 @@ group: navigation
     - 使用Jekyll Bootstrap
     - 增加顶部加载进度条
     - 404页面
+	- **Bug Fixes**
+	- 解决markdown中文问题

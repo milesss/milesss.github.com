@@ -1,17 +1,16 @@
----
+﻿---
 title: About
-layout: about
+layout: page
 pid: 75454545
-group: navigation
 ---
-{% include JB/setup %}
 <br />
-### Blog
-From 2014-11-19 to now  
-Jekyll
+
 ### {{ site.author.name }}
 
-> Front ender | Linuxer | Macer | Googler | Coder
+> 一个脱离了高级趣味的人，不会修电脑的程序员
+
+### Blog
+From 2014-11-19 to now  
 
 who involved in
 > <i class="icon-github"></i>[GitHub](https://github.com/{{ site.author.github }})
