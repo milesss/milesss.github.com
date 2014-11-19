@@ -1,0 +1,60 @@
+<div class="article">
+    <div class="title">
+        <h2>{{ page.title }} </h2>
+    </div>
+    <div class="meta">
+        <span class="time">
+            <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
+        </span>
+        {% if page.categories %}
+        <span class="categories">
+          <span class="icon-bookmark" title="Categories"></span>
+          {% for category in page.categories %}
+          <a href="{{site.JB.categories_path}}#{{ category }}" title="{{ category }}">{{ category }}</a>
+          {% endfor %}
+        </span>
+        {% endif %}
+        {% if page.tags %}
+        <span class="tags">
+          <span class="icon-tags" title="Tags"></span>
+          {% for tag in page.tags %}
+          <a href="{{site.JB.tags_path}}#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
+          {% endfor %}
+        </span>
+        {% endif %}
+    </div>
+    <div class="post">
+        {{ content }}
+    </div>
+    <div class="copyright">
+        <p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;&nbsp;本文链接地址：<a title="{{page.title}}" href="{{site.production_url}}{{page.url}}">{{site.production_url}}{{page.url}}</a><br />
+        &nbsp;&nbsp;&raquo;&nbsp;&nbsp;&nbsp;欢迎订阅本站：您可以选择通过<a href="{{site.JB.rss_path}}" target="_blank">RSS阅读器</a>订阅<br /></p>
+    </div>
+    {% if page.comments %}
+        <div class="ds-thread" data-thread-key="{{page.pid}}"></div>
+        <script type="text/javascript">
+            var duoshuoQuery = {short_name:'{{ site.JB.comments.duoshuo.short_name }}'};
+                (function() {
+                    var ds = document.createElement('script');
+                    ds.type = 'text/javascript';ds.async = true;
+                    ds.src = 'http://static.duoshuo.com/embed.js';
+                    ds.charset = 'UTF-8';
+                    (document.getElementsByTagName('head')[0] 
+                    || document.getElementsByTagName('body')[0]).appendChild(ds);
+                })();
+        </script>
+    {% else %}
+        <div id="ds-thread"><hr /><p>评论已关闭</p></div>
+    {% endif %}
+</div>
+
+{% if page.previous or page.next %}
+<div id="page_nav">
+    {% if page.previous %}
+    <a href='{{page.previous.url}}'>← Prev</a>
+    {% endif %}
+    {% if page.next %}
+    <a href='{{page.next.url}}'>Next →</a>
+    {% endif %}
+</div>
+{% endif %}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="baidu-site-verification" content="aYLjN7BTqK4xisIH" />
+        <meta property="qc:admins" content="07210670311655" />
+        <meta property="wb:webmaster" content="20367955236e84bd" />
+        <meta name="author" content="{{ site.author.name }}" />
+        <meta name="generator" content="Jekyll" />
+        <meta name="keywords" content="{% if page.keywords and page.keywords != '' %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}" />
+        <meta name="description" content="{% if page.description and page.description != '' %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+        <link rel="stylesheet" href="{{ ASSET_PATH }}/css/style.css" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
+        <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed" />
+        <link rel="canonical" href="{% if page.is_index %}{{ site.production_url }}{% else %}{{ site.production_url }}{{ page.url }}{% endif %}" />
+		
+        <!--[if IE 7]>
+        <link rel="stylesheet" href="{{ ASSET_PATH }}/css/fontello-ie7.css">
+        <![endif]-->
+    </head>
+    <body>
+        <div id="main" role="main">
+            <div id="header" class="clearfix">
+                <h1><a title="{{ site.title }}" href="/">{{ site.title }}</a></h1>
+                <div class="floatnav">
+                    <span><a title="Archive" href="{{ site.JB.archive_path }}">Archive</a></span>
+                    <span><a title="Tags" href="{{ site.JB.tags_path }}">Tags</a></span>
+                    <span><a title="Categories" href="{{ site.JB.categories_path }}">Categories</a></span>
+                    <span><a title="History" href="{{ site.JB.history_path }}">History</a></span>
+                    <span><a title="About" href="{{ site.JB.about_path }}">About</a></span>
+                    <span><a title="Subscribe" target="_blank" href="{{ site.JB.rss_path }}">Feed</a></span>
+                </div>
+            </div>
+            <div class="fixnav">
+                <span><a title="Home" class="icon-home" href="/"></a></span>
+                <span><a title="Archive" class="icon-list" href="{{ site.JB.archive_path }}"></a></span>
+                <span><a title="Tags" class="icon-tags" href="{{ site.JB.tags_path }}"></a></span>
+                <span><a title="Categories" class="icon-bookmark" href="{{ site.JB.categories_path }}"></a></span>
+                <span><a title="History" class="icon-link" href="{{ site.JB.history_path }}"></a></span>
+                <span><a title="About" class="icon-user" href="{{ site.JB.about_path }}"></a></span>
+                <span><a title="Subscribe" target="_blank" class="icon-rss" href="{{ site.JB.rss_path }}"></a></span>
+            </div>
+            <div class="content">
+            {{ content }}
+            </div>
+            <div id="footer" class="content">
+                <div>
+                    &copy; 2014 | powered by jekyll 
+                </div>
+            </div>
+        </div> <!-- main -->
+        <a id="forkme" title="Fork me on GitHub" target="_blank" href="https://github.com/milesss/miless.github.io"></a>
+        <div id="updown">
+            <span><a class="icon-angle-up scroll" href="#main" title="up"></a></span>
+            <span><a class="icon-angle-down scroll" href="#footer" title="down"></a></span>
+        </div>
+		<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="{{ ASSET_PATH }}/js/nprogress.min.js"></script>
+        <script type="text/javascript" src="{{ ASSET_PATH }}/js/smooth-scroll.js"></script>
+        <script>
+		$(document).ready( function() {
+			NProgress.start();
+			setTimeout(function () {
+				NProgress.done();
+			}, 600);
+		});
+          //(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        //  ga('create', 'UA-50848533-1', 'isay.me');
+        //  ga('send', 'pageview');
+        </script>
+    </body>
+</html>
