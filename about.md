@@ -1,11 +1,11 @@
-﻿---
-title: About
+---
 layout: page
-pid: 75454545
+title: About
+pid: 234343434
 ---
 <br />
 
-### {{ site.author.name }}
+### Miles
 
 > 一个脱离了高级趣味的人，不会修电脑的程序员
 
