@@ -18,3 +18,4 @@ pid: 234343434
     - **Features**
     - About页面增加微信二维码
 	- 增加百度统计
+	- 首页read more效果

@@ -8,13 +8,15 @@ categories: [开发]
 
 这是我在写代码的时候，积攒下来的一些实用的`工具网站`。   
 在你面对特定问题的时候，可能对你大有帮助哦~   
+
+<!-- more -->  
 *****
-<br/>
 
 - 设计
   * [ColorHexa（颜色值转换）](http://www.colorhexa.com/)
   * [Adobe Kuler（配色工具）](https://kuler.adobe.com/create/color-wheel/)
   * [WEB安全色](http://www.bootcss.com/p/websafecolors/)
+  
 - 写作
   * [Prose.io(Github)](http://prose.io/)
   * [马克飞象（Markdown 编辑器，同步印象笔记）](http://maxiang.info/)

@@ -25,7 +25,8 @@
     {% endif %}
   </div>
   <div class="post">
-  {{ post.content }}
+  {{ post.content | split:'<!-- more -->'| first }}
+   <a href="{{ post.url }}" class="post-categorycut">read more</a>
   </div>
 </div>
 {% endfor %}
