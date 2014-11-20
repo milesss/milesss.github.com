@@ -1,0 +1,42 @@
+﻿<div class="article">
+	<div class="login_no_qlogin" id="login">
+            <div class="qrswitch" id="qrswitch">
+          	    <img class="wechat_img" id="wechat_img" src="/assets/themes/miles/images/wechat.png" alt="" />
+                <a class="qrswitch_logo" id="qrswitch_logo" href="javascript:void(0)" title="微信扫两扫"></a>
+            </div>
+            <div class="web_qr_login" id="web_qr_login">
+                <div class="web_qr_login_show" id="web_qr_login_show">
+                    <div class="web_login" id="web_login">
+                    </div>
+                    <div class="qrlogin" id="qrlogin">
+                        <div class="qrlogin_bg"></div>
+                        <img class="qrlogin_img" id="qrlogin_img" src="/assets/themes/miles/images/ptqrshow.png" alt="" />
+                    </div>
+                </div>
+            </div>
+    </div>
+	<script type="text/javascript">
+	$(document).ready(function() {
+			var $switch = $('#qrswitch_logo'), $qr = $('#web_qr_login_show');
+            $switch.click(function () {
+                if ($switch.attr('class') === 'qrswitch_logo') {
+					$('#wechat_img').hide();
+                    $switch.attr('class', 'qrswitch_logo_qr');
+                    $qr.animate({ top: '-265px' }, 200);
+                } else {
+					$('#wechat_img').show();
+                    $switch.attr('class', 'qrswitch_logo');
+                    $qr.animate({ top: '0px' }, 200);
+                }
+            });
+		});
+    </script>
+  {% if page.title %}
+  <div class="title">
+    <h2>{{ page.title }} </h2>
+  </div>
+  {% endif %}
+  <div class="post">
+  {{ content }}
+  </div>
+</div>

@@ -1,4 +1,8 @@
 ---
 layout: default
 ---
-{% include JB/setup %}{% include themes/miles/page.html %}
+{% if page.title == "About"%}
+	{% include JB/setup %}{% include themes/miles/about.html %}
+{% else %}
+	{% include JB/setup %}{% include themes/miles/page.html %}
+{% endif %}

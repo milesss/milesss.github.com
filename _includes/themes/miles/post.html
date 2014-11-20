@@ -30,22 +30,6 @@
         <p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;&nbsp;本文链接地址：<a title="{{page.title}}" href="{{site.production_url}}{{page.url}}">{{site.production_url}}{{page.url}}</a><br />
         &nbsp;&nbsp;&raquo;&nbsp;&nbsp;&nbsp;欢迎订阅本站：您可以选择通过<a href="{{site.JB.rss_path}}" target="_blank">RSS阅读器</a>订阅<br /></p>
     </div>
-    {% if page.comments %}
-        <div class="ds-thread" data-thread-key="{{page.pid}}"></div>
-        <script type="text/javascript">
-            var duoshuoQuery = {short_name:'{{ site.JB.comments.duoshuo.short_name }}'};
-                (function() {
-                    var ds = document.createElement('script');
-                    ds.type = 'text/javascript';ds.async = true;
-                    ds.src = 'http://static.duoshuo.com/embed.js';
-                    ds.charset = 'UTF-8';
-                    (document.getElementsByTagName('head')[0] 
-                    || document.getElementsByTagName('body')[0]).appendChild(ds);
-                })();
-        </script>
-    {% else %}
-        <div id="ds-thread"><hr /><p>评论已关闭</p></div>
-    {% endif %}
 </div>
 
 {% if page.previous or page.next %}

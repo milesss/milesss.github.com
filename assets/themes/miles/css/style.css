@@ -592,7 +592,7 @@ body:before{
     transform: rotate(3deg) translate(0px, -4px);
 }
 
-/* Remove these to get rid of the spinner */
+/* Nprogress plugin */
 #nprogress .spinner {
     display: block;
     position: fixed;
@@ -633,3 +633,29 @@ body:before{
     0%   { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+
+/*  wechat qr  */
+.login, .login_no_qlogin {  width: 288px; border: 0px; position: relative; float:right; margin-top:-18px;margin-right:-23px;}
+
+.web_login { width: 288px; position: relative; padding-bottom: 65px;height:175px; }
+    
+	
+.web_qr_login { position: relative; height: 225px; overflow: hidden; }
+    .web_qr_login .web_qr_login_show { position: absolute; top: 0; }
+
+.qrlogin { position: relative; width: 288px; height: 175px; }
+.login, .login_no_qlogin { background-color: #ffffff; }
+
+.qrswitch { position: absolute; right: 0; z-index: 100; }
+
+#wechat_img { float:left; padding-right:58px; padding-top:45px;}
+
+.qrswitch_logo { position: absolute; right: 10px; width: 51px; height: 77px; background: url(/assets/themes/miles/images/pull_2.gif) no-repeat; outline: none; *hide-focus: expression(this.hideFocus=true); }
+
+.qrswitch_logo_qr { position: absolute; right: 20px; width: 40px; height: 50px; background: url(/assets/themes/miles/images/pull_3.gif) no-repeat; outline: none; *hide-focus: expression(this.hideFocus=true); }
+
+.qrlogin { position: relative; width: 288px; height: 215px; background: url(/assets/themes/miles/images/bg.png) repeat; }
+    .qrlogin .qrlogin_bg { width: 150px; height: 96px; background: url(/assets/themes/miles/images/qr.png) no-repeat 0 0; position: absolute; top: 88px; left: 20px; _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/themes/miles/images/qr_1_ie6.png',sizingMethod="crop"); }
+    .qrlogin .qrlogin_img { width: 110px; height: 110px; position: absolute; right: 20px; top: 80px; }
+   
