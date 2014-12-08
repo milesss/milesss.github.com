@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 一些工具类的网站
-pid: 3
-tags: [tool]
+pid: 2
+tags: [tools]
 categories: [开发]
 ---
 
