@@ -5,11 +5,11 @@
   </div>
   {% endif %}
   <div class="post">
-    <div id='tag_cloud'>
-    {% for tag in site.tags %}
-    <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
-    {% endfor %}
-    </div>
+    <ul class="tag_box inline">
+	{% assign tags_list = site.tags %}  
+	{% include JB/tags_list %}
+	</ul>
+	
 
     <ul class="listing">
     {% for tag in site.tags %}

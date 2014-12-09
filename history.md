@@ -4,6 +4,13 @@ title: History
 pid: 234343434
 ---
 <br />
+- **0.0.4 : 2014.12.09**
+    - **Features**
+    > - Tag样式
+	- **Bug Fixes**
+	> - 解决文章中文问题，将post改为utf-8（无BOM）格式
+	> - 大图只在Index显示
+
 - **0.0.3 : 2014.12.08**
     - **Features**
     > - Index大图，幽灵按钮

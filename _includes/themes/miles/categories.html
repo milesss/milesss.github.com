@@ -5,11 +5,10 @@
   </div>
   {% endif %}
   <div class="post">
-    <div id='tag_cloud'>
-    {% for node in site.categories %}
-    <a href="#{{ node[0] }}" title="{{ node[0] }}" rel="{{ node[1].size }}">{{ node[0] }}</a>
-    {% endfor %}
-    </div>
+	<ul class="tag_box inline">
+	{% assign categories_list = site.categories %}  
+	{% include JB/categories_list %}
+	</ul>
 
     <ul class="listing">
     {% for node in site.categories %}

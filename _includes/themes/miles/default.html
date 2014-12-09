@@ -78,15 +78,18 @@
 				NProgress.done();
 			}, 650);
 			
-			
 			if($("#isIndex").length > 0){
-				$('#main').hide();
-				//The random_bg must same to number of images
-				var random_bg=Math.floor(Math.random()*4+1);  //1-4
-				var bg='url(/assets/themes/miles/images/welcome'+random_bg+'.jpg)';
-				//console.log(bg);
-				$("#welcome").css("background-image",bg);
-				$('#welcome').show();
+				var url = window.location.href;
+				console.log(url);
+				if(url.charAt(url.length - 1) == "/"){
+					$('#main').hide();
+					//The random_bg range must same to number of images
+					var random_bg=Math.floor(Math.random()*4+1);  //1-4
+					var bg='url(/assets/themes/miles/images/welcome'+random_bg+'.jpg)';
+					//console.log(bg);
+					$("#welcome").css("background-image",bg);
+					$('#welcome').show();
+				}
 			}
 			
 			$("#welcome_btn").click(function(){

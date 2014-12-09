@@ -1,12 +1,12 @@
 ---
 layout: post
-title: ÖĞ¹ú´«Í³É«²Ê
+title: ä¸­å›½ä¼ ç»Ÿè‰²å½©
 pid: 3
 tags: [tools]
-categories: [¿ª·¢]
+categories: [å¼€å‘]
 ---
 
-ÖĞ¹ú´«Í³É«²ÊµÄRGBÖµ  
+ä¸­å›½ä¼ ç»Ÿè‰²å½©çš„RGBå€¼  
 
 <!-- more -->  
 *****
@@ -25,181 +25,181 @@ categories: [¿ª·¢]
 			.containerForColor ul li a.white span{color:#FFF}
 			.center{text-align:center;}
 		</style>
-    	<h1 class="center">ÖĞ¹ú´«Í³É«²Ê</h1>        
+    	<h1 class="center">ä¸­å›½ä¼ ç»Ÿè‰²å½©</h1>        
     	<h2 class="center">chinese traditional colors</h2>      
 		<div class="containerForColor clearfix">
 	    	<ul>
-				<li><a>ÎµÀ¶<span>#70f3ff</span></a></li>
-				<li><a>À¶<span>#44cef6</span></a></li>
-				<li><a>±ÌÀ¶<span>#3eede7</span></a></li>
-				<li><a class="white">Ê¯Çà<span>#1685a9</span></a></li>
-				<li><a class="white">µåÇà<span>#177cb0</span></a></li>
-				<li><a class="white">µåÀ¶<span>#065279</span></a></li>
-				<li><a class="white">»¨Çà<span>#003472</span></a></li>
-				<li><a class="white">±¦À¶<span>#4b5cc4</span></a></li>
-				<li><a class="white">À¶»ÒÉ«<span>#a1afc9</span></a></li>
-				<li><a class="white">²ØÇà<span>#2e4e7e</span></a></li>
-				<li><a class="white">²ØÀ¶<span>#3b2e7e</span></a></li>
-				<li><a class="white">÷ì<span>#4a4266</span></a></li>
-				<li><a class="white">÷ìÂÌ<span>#426666</span></a></li>
-				<li><a class="white">÷ìÀ¶<span>#425066</span></a></li>
-				<li><a class="white">÷ì×Ï<span>#574266</span></a></li>
-				<li><a class="white">×ÏÉ«<span>#8d4bbb</span></a></li>
-				<li><a class="white">×Ï½´<span>#815463</span></a></li>
-				<li><a class="white">½´×Ï<span>#815476</span></a></li>
-				<li><a class="white">×ÏÌ´<span>#4c221b</span></a></li>
-				<li><a class="white">ç¤Çà<span>#003371</span></a></li>
-				<li><a class="white">×ÏÌÄ<span>#56004f</span></a></li>
-				<li><a class="white">ÇàÁ«<span>#801dae</span></a></li>
-				<li><a class="white">ÈºÇà<span>#4c8dae</span></a></li>
-				<li><a>Ñ©Çà<span>#b0a4e3</span></a></li>
-				<li><a>¶¡ÏãÉ«<span>#cca4e3</span></a></li>
-				<li><a>ÅºÉ«<span>#edd1d8</span></a></li>
-				<li><a>ÅººÉÉ«<span>#e4c6d0</span></a></li>
+				<li><a>è”šè“<span>#70f3ff</span></a></li>
+				<li><a>è“<span>#44cef6</span></a></li>
+				<li><a>ç¢§è“<span>#3eede7</span></a></li>
+				<li><a class="white">çŸ³é’<span>#1685a9</span></a></li>
+				<li><a class="white">é›é’<span>#177cb0</span></a></li>
+				<li><a class="white">é›è“<span>#065279</span></a></li>
+				<li><a class="white">èŠ±é’<span>#003472</span></a></li>
+				<li><a class="white">å®è“<span>#4b5cc4</span></a></li>
+				<li><a class="white">è“ç°è‰²<span>#a1afc9</span></a></li>
+				<li><a class="white">è—é’<span>#2e4e7e</span></a></li>
+				<li><a class="white">è—è“<span>#3b2e7e</span></a></li>
+				<li><a class="white">é»›<span>#4a4266</span></a></li>
+				<li><a class="white">é»›ç»¿<span>#426666</span></a></li>
+				<li><a class="white">é»›è“<span>#425066</span></a></li>
+				<li><a class="white">é»›ç´«<span>#574266</span></a></li>
+				<li><a class="white">ç´«è‰²<span>#8d4bbb</span></a></li>
+				<li><a class="white">ç´«é…±<span>#815463</span></a></li>
+				<li><a class="white">é…±ç´«<span>#815476</span></a></li>
+				<li><a class="white">ç´«æª€<span>#4c221b</span></a></li>
+				<li><a class="white">ç»€é’<span>#003371</span></a></li>
+				<li><a class="white">ç´«æ£ <span>#56004f</span></a></li>
+				<li><a class="white">é’è²<span>#801dae</span></a></li>
+				<li><a class="white">ç¾¤é’<span>#4c8dae</span></a></li>
+				<li><a>é›ªé’<span>#b0a4e3</span></a></li>
+				<li><a>ä¸é¦™è‰²<span>#cca4e3</span></a></li>
+				<li><a>è—•è‰²<span>#edd1d8</span></a></li>
+				<li><a>è—•è·è‰²<span>#e4c6d0</span></a></li>
 			</ul>
 	    	<ul>
-				<li><a class="white">ÖìÉ°<span>#ff461f</span></a></li>
-				<li><a class="white">»ğºì<span>#ff2d51</span></a></li>
-				<li><a class="white">Öì±ì<span>#f36838</span></a></li>
-				<li><a class="white">åúÉ«<span>#ed5736</span></a></li>
-				<li><a class="white">Ñóºì<span>#ff4777</span></a></li>
-				<li><a class="white">Æ·ºì<span>#f00056</span></a></li>
-				<li><a class="white">·Ûºì<span>#ffb3a7</span></a></li>
-				<li><a class="white">ÌÒºì<span>#f47983</span></a></li>
-				<li><a class="white">º£ÌÄºì<span>#db5a6b</span></a></li>
-				<li><a class="white">Ó£ÌÒÉ«<span>#c93756</span></a></li>
-				<li><a class="white">õ¢ÑÕ<span>#f9906f</span></a></li>
-				<li><a class="white">Òøºì<span>#f05654</span></a></li>
-				<li><a class="white">´óºì<span>#ff2121</span></a></li>
-				<li><a class="white">Ê¯Áñºì<span>#f20c00</span></a></li>
-				<li><a class="white">ç­×Ï<span>#8c4356</span></a></li>
-				<li><a class="white">ç³ºì<span>#c83c23</span></a></li>
-				<li><a class="white">ëÙÖ¬<span>#9d2933</span></a></li>
-				<li><a class="white">Öìºì<span>#ff4c00</span></a></li>
-				<li><a class="white">µ¤<span>#ff4e20</span></a></li>
-				<li><a class="white">Í®<span>#f35336</span></a></li>
-				<li><a class="white">õ¢ºì<span>#dc3023</span></a></li>
-				<li><a class="white">Ñ×<span>#ff3300</span></a></li>
-				<li><a class="white">ÜçÉ«<span>#cb3a56</span></a></li>
-				<li><a class="white">çº<span>#a98175</span></a></li>
-				<li><a class="white">Ì´<span>#b36d61</span></a></li>
-				<li><a class="white">æÌºì<span>#ef7a82</span></a></li>
-				<li><a class="white">Ñóºì<span>#ff0097</span></a></li>
-				<li><a class="white">Ôæºì<span>#c32136</span></a></li>
-				<li><a class="white">Òóºì<span>#be002f</span></a></li>
-				<li><a class="white">ºÕ³à<span>#c91f37</span></a></li>
-				<li><a class="white">ÒøÖì<span>#bf242a</span></a></li>
-				<li><a class="white">³à<span>#c3272b</span></a></li>
-				<li><a class="white">ëÙÖ¬<span>#9d2933</span></a></li>
-				<li><a class="white">ÀõÉ«<span>#60281e</span></a></li>
-				<li><a class="white">ĞşÉ«<span>#622a1d</span></a></li>
+				<li><a class="white">æœ±ç ‚<span>#ff461f</span></a></li>
+				<li><a class="white">ç«çº¢<span>#ff2d51</span></a></li>
+				<li><a class="white">æœ±è†˜<span>#f36838</span></a></li>
+				<li><a class="white">å¦ƒè‰²<span>#ed5736</span></a></li>
+				<li><a class="white">æ´‹çº¢<span>#ff4777</span></a></li>
+				<li><a class="white">å“çº¢<span>#f00056</span></a></li>
+				<li><a class="white">ç²‰çº¢<span>#ffb3a7</span></a></li>
+				<li><a class="white">æ¡ƒçº¢<span>#f47983</span></a></li>
+				<li><a class="white">æµ·æ£ çº¢<span>#db5a6b</span></a></li>
+				<li><a class="white">æ¨±æ¡ƒè‰²<span>#c93756</span></a></li>
+				<li><a class="white">é…¡é¢œ<span>#f9906f</span></a></li>
+				<li><a class="white">é“¶çº¢<span>#f05654</span></a></li>
+				<li><a class="white">å¤§çº¢<span>#ff2121</span></a></li>
+				<li><a class="white">çŸ³æ¦´çº¢<span>#f20c00</span></a></li>
+				<li><a class="white">ç»›ç´«<span>#8c4356</span></a></li>
+				<li><a class="white">ç»¯çº¢<span>#c83c23</span></a></li>
+				<li><a class="white">èƒ­è„‚<span>#9d2933</span></a></li>
+				<li><a class="white">æœ±çº¢<span>#ff4c00</span></a></li>
+				<li><a class="white">ä¸¹<span>#ff4e20</span></a></li>
+				<li><a class="white">å½¤<span>#f35336</span></a></li>
+				<li><a class="white">é…¡çº¢<span>#dc3023</span></a></li>
+				<li><a class="white">ç‚<span>#ff3300</span></a></li>
+				<li><a class="white">èŒœè‰²<span>#cb3a56</span></a></li>
+				<li><a class="white">ç»¾<span>#a98175</span></a></li>
+				<li><a class="white">æª€<span>#b36d61</span></a></li>
+				<li><a class="white">å«£çº¢<span>#ef7a82</span></a></li>
+				<li><a class="white">æ´‹çº¢<span>#ff0097</span></a></li>
+				<li><a class="white">æ£çº¢<span>#c32136</span></a></li>
+				<li><a class="white">æ®·çº¢<span>#be002f</span></a></li>
+				<li><a class="white">èµ«èµ¤<span>#c91f37</span></a></li>
+				<li><a class="white">é“¶æœ±<span>#bf242a</span></a></li>
+				<li><a class="white">èµ¤<span>#c3272b</span></a></li>
+				<li><a class="white">èƒ­è„‚<span>#9d2933</span></a></li>
+				<li><a class="white">æ —è‰²<span>#60281e</span></a></li>
+				<li><a class="white">ç„è‰²<span>#622a1d</span></a></li>
 	    	</ul>
 			<ul>
-				<li><a>ËÉ»¨É«<span>#bce672</span></a></li>
-				<li><a>Áø»Æ<span>#c9dd22</span></a></li>
-				<li><a>ÄÛÂÌ<span>#bddd22</span></a></li>
-				<li><a>ÁøÂÌ<span>#afdd22</span></a></li>
-				<li><a>´Ğ»Æ<span>#a3d900</span></a></li>
-				<li><a>´ĞÂÌ<span>#9ed900</span></a></li>
-				<li><a>¶¹ÂÌ<span>#9ed048</span></a></li>
-				<li><a>¶¹Çà<span>#96ce54</span></a></li>
-				<li><a>ÓÍÂÌ<span>#00bc12</span></a></li>
-				<li><a>´ĞÙ»<span>#0eb83a</span></a></li>
-				<li><a>´ĞÇà<span>#0eb83a</span></a></li>
-				<li><a>Çà´Ğ<span>#0aa344</span></a></li>
-				<li><a class="white">Ê¯ÂÌ<span>#16a951</span></a></li>
-				<li><a class="white">ËÉ°ØÂÌ<span>#21a675</span></a></li>
-				<li><a class="white">ËÉ»¨ÂÌ<span>#057748</span></a></li>
-				<li><a class="white">ÂÌÉò<span>#0c8918</span></a></li>
-				<li><a>ÂÌÉ«<span>#00e500</span></a></li>
-				<li><a>²İÂÌ<span>#40de5a</span></a></li>
-				<li><a>Çà´ä<span>#00e079</span></a></li>
-				<li><a>ÇàÉ«<span>#00e09e</span></a></li>
-				<li><a>ôä´äÉ«<span>#3de1ad</span></a></li>
-				<li><a>±ÌÂÌ<span>#2add9c</span></a></li>
-				<li><a>ÓñÉ«<span>#2edfa3</span></a></li>
-				<li><a>çÎ<span>#7fecad</span></a></li>
-				<li><a>°¬ÂÌ<span>#a4e2c6</span></a></li>
-				<li><a>Ê¯Çà<span>#7bcfa6</span></a></li>
-				<li><a>±ÌÉ«<span>#1bd1a5</span></a></li>
-				<li><a>Çà±Ì<span>#48c0a3</span></a></li>
-				<li><a>Í­ÂÌ<span>#549688</span></a></li>
-				<li><a>ÖñÇà<span>#789262</span></a></li>
-				<li><a class="white">Ä«»Ò<span>#758a99</span></a></li>
-				<li><a class="white">Ä«É«<span>#50616d</span></a></li>
-				<li><a class="white">Ñ»Çà<span>#424c50</span></a></li>
-				<li><a class="white">÷ö<span>#41555d</span></a></li>
+				<li><a>æ¾èŠ±è‰²<span>#bce672</span></a></li>
+				<li><a>æŸ³é»„<span>#c9dd22</span></a></li>
+				<li><a>å«©ç»¿<span>#bddd22</span></a></li>
+				<li><a>æŸ³ç»¿<span>#afdd22</span></a></li>
+				<li><a>è‘±é»„<span>#a3d900</span></a></li>
+				<li><a>è‘±ç»¿<span>#9ed900</span></a></li>
+				<li><a>è±†ç»¿<span>#9ed048</span></a></li>
+				<li><a>è±†é’<span>#96ce54</span></a></li>
+				<li><a>æ²¹ç»¿<span>#00bc12</span></a></li>
+				<li><a>è‘±å€©<span>#0eb83a</span></a></li>
+				<li><a>è‘±é’<span>#0eb83a</span></a></li>
+				<li><a>é’è‘±<span>#0aa344</span></a></li>
+				<li><a class="white">çŸ³ç»¿<span>#16a951</span></a></li>
+				<li><a class="white">æ¾æŸç»¿<span>#21a675</span></a></li>
+				<li><a class="white">æ¾èŠ±ç»¿<span>#057748</span></a></li>
+				<li><a class="white">ç»¿æ²ˆ<span>#0c8918</span></a></li>
+				<li><a>ç»¿è‰²<span>#00e500</span></a></li>
+				<li><a>è‰ç»¿<span>#40de5a</span></a></li>
+				<li><a>é’ç¿ <span>#00e079</span></a></li>
+				<li><a>é’è‰²<span>#00e09e</span></a></li>
+				<li><a>ç¿¡ç¿ è‰²<span>#3de1ad</span></a></li>
+				<li><a>ç¢§ç»¿<span>#2add9c</span></a></li>
+				<li><a>ç‰è‰²<span>#2edfa3</span></a></li>
+				<li><a>ç¼¥<span>#7fecad</span></a></li>
+				<li><a>è‰¾ç»¿<span>#a4e2c6</span></a></li>
+				<li><a>çŸ³é’<span>#7bcfa6</span></a></li>
+				<li><a>ç¢§è‰²<span>#1bd1a5</span></a></li>
+				<li><a>é’ç¢§<span>#48c0a3</span></a></li>
+				<li><a>é“œç»¿<span>#549688</span></a></li>
+				<li><a>ç«¹é’<span>#789262</span></a></li>
+				<li><a class="white">å¢¨ç°<span>#758a99</span></a></li>
+				<li><a class="white">å¢¨è‰²<span>#50616d</span></a></li>
+				<li><a class="white">é¸¦é’<span>#424c50</span></a></li>
+				<li><a class="white">é»¯<span>#41555d</span></a></li>
 			</ul>
 			<ul>
-				<li><a>Ó£²İÉ«<span>#eaff56</span></a></li>
-				<li><a>¶ì»Æ<span>#fff143</span></a></li>
-				<li><a>Ñ¼»Æ<span>#faff72</span></a></li>
-				<li><a>ĞÓ»Æ<span>#ffa631</span></a></li>
-				<li><a class="white">³È»Æ<span>#ffa400</span></a></li>
-				<li><a class="white">³ÈÉ«<span>#fa8c35</span></a></li>
-				<li><a>ĞÓºì<span>#ff8c31</span></a></li>
-				<li><a>éÙ»Æ<span>#ff8936</span></a></li>
-				<li><a>éÙºì<span>#ff7500</span></a></li>
-				<li><a>ÌÙ»Æ<span>#ffb61e</span></a></li>
-				<li><a>½ª»Æ<span>#ffc773</span></a></li>
-				<li><a>´Æ»Æ<span>#ffc64b</span></a></li>
-				<li><a>³à½ğ<span>#f2be45</span></a></li>
-				<li><a>ç½É«<span>#f0c239</span></a></li>
-				<li><a>ĞÛ»Æ<span>#e9bb1d</span></a></li>
-				<li><a>ÇïÏãÉ«<span>#d9b611</span></a></li>
-				<li><a>½ğÉ«<span>#eacd76</span></a></li>
-				<li><a>ÑÀÉ«<span>#eedeb0</span></a></li>
-				<li><a>¿İ»Æ<span>#d3b17d</span></a></li>
-				<li><a class="white">»ÆèÓ<span>#e29c45</span></a></li>
-				<li><a>ÎÚ½ğ<span>#a78e44</span></a></li>
-				<li><a class="white">»è»Æ<span>#c89b40</span></a></li>
-				<li><a class="white">×Ø»Æ<span>#ae7000</span></a></li>
-				<li><a class="white">çúçê<span>#ca6924</span></a></li>
-				<li><a class="white">×ØÉ«<span>#b25d25</span></a></li>
-				<li><a class="white">²èÉ«<span>#b35c44</span></a></li>
-				<li><a class="white">×Øºì<span>#9b4400</span></a></li>
-				<li><a class="white">ô÷<span>#9c5333</span></a></li>
-				<li><a class="white">ÍÕÉ«<span>#a88462</span></a></li>
-				<li><a class="white">ÇïÉ«<span>#896c39</span></a></li>
-				<li><a class="white">×ØÂÌ<span>#827100</span></a></li>
-				<li><a class="white">ºÖÉ«<span>#6e511e</span></a></li>
-				<li><a class="white">×ØºÚ<span>#7c4b00</span></a></li>
-				<li><a class="white">ô÷É«<span>#955539</span></a></li>
-				<li><a class="white">ô÷Ê¯<span>#845a33</span></a></li>
+				<li><a>æ¨±è‰è‰²<span>#eaff56</span></a></li>
+				<li><a>é¹…é»„<span>#fff143</span></a></li>
+				<li><a>é¸­é»„<span>#faff72</span></a></li>
+				<li><a>æé»„<span>#ffa631</span></a></li>
+				<li><a class="white">æ©™é»„<span>#ffa400</span></a></li>
+				<li><a class="white">æ©™è‰²<span>#fa8c35</span></a></li>
+				<li><a>æçº¢<span>#ff8c31</span></a></li>
+				<li><a>æ©˜é»„<span>#ff8936</span></a></li>
+				<li><a>æ©˜çº¢<span>#ff7500</span></a></li>
+				<li><a>è—¤é»„<span>#ffb61e</span></a></li>
+				<li><a>å§œé»„<span>#ffc773</span></a></li>
+				<li><a>é›Œé»„<span>#ffc64b</span></a></li>
+				<li><a>èµ¤é‡‘<span>#f2be45</span></a></li>
+				<li><a>ç¼ƒè‰²<span>#f0c239</span></a></li>
+				<li><a>é›„é»„<span>#e9bb1d</span></a></li>
+				<li><a>ç§‹é¦™è‰²<span>#d9b611</span></a></li>
+				<li><a>é‡‘è‰²<span>#eacd76</span></a></li>
+				<li><a>ç‰™è‰²<span>#eedeb0</span></a></li>
+				<li><a>æ¯é»„<span>#d3b17d</span></a></li>
+				<li><a class="white">é»„æ Œ<span>#e29c45</span></a></li>
+				<li><a>ä¹Œé‡‘<span>#a78e44</span></a></li>
+				<li><a class="white">æ˜é»„<span>#c89b40</span></a></li>
+				<li><a class="white">æ£•é»„<span>#ae7000</span></a></li>
+				<li><a class="white">ç¥ç€<span>#ca6924</span></a></li>
+				<li><a class="white">æ£•è‰²<span>#b25d25</span></a></li>
+				<li><a class="white">èŒ¶è‰²<span>#b35c44</span></a></li>
+				<li><a class="white">æ£•çº¢<span>#9b4400</span></a></li>
+				<li><a class="white">èµ­<span>#9c5333</span></a></li>
+				<li><a class="white">é©¼è‰²<span>#a88462</span></a></li>
+				<li><a class="white">ç§‹è‰²<span>#896c39</span></a></li>
+				<li><a class="white">æ£•ç»¿<span>#827100</span></a></li>
+				<li><a class="white">è¤è‰²<span>#6e511e</span></a></li>
+				<li><a class="white">æ£•é»‘<span>#7c4b00</span></a></li>
+				<li><a class="white">èµ­è‰²<span>#955539</span></a></li>
+				<li><a class="white">èµ­çŸ³<span>#845a33</span></a></li>
 			</ul>
 			<ul>
-				<li><a>¾«°×<span>#ffffff</span></a></li>
-				<li><a>Òø°×<span>#e9e7ef</span></a></li>
-				<li><a>Ç¦°×<span>#f0f0f4</span></a></li>
-				<li><a>ËªÉ«<span>#e9f1f6</span></a></li>
-				<li><a>Ñ©°×<span>#f0fcff</span></a></li>
-				<li><a>Ó¨°×<span>#e3f9fd</span></a></li>
-				<li><a>ÔÂ°×<span>#d6ecf0</span></a></li>
-				<li><a>ÏóÑÀ°×<span>#fffbf0</span></a></li>
-				<li><a>çÉ<span>#f2ecde</span></a></li>
-				<li><a>Óã¶Ç°×<span>#fcefe8</span></a></li>
-				<li><a>°×·Û<span>#fff2df</span></a></li>
-				<li><a>İ±°×<span>#f3f9f1</span></a></li>
-				<li><a>Ñ¼ÂÑÇà<span>#e0eee8</span></a></li>
-				<li><a>ËØ<span>#e0f0e9</span></a></li>
-				<li><a>Çà°×<span>#c0ebd7</span></a></li>
-				<li><a>Ğ·¿ÇÇà<span>#bbcdc5</span></a></li>
-				<li><a>»¨°×<span>#c2ccd0</span></a></li>
-				<li><a>ÀÏÒø<span>#bacac6</span></a></li>
-				<li><a class="white">»ÒÉ«<span>#808080</span></a></li>
-				<li><a class="white">²ÔÉ«<span>#75878a</span></a></li>
-				<li><a class="white">Ë®É«<span>#88ada6</span></a></li>
-				<li><a class="white">÷î<span>#6b6882</span></a></li>
-				<li><a class="white">ÎÚÉ«<span>#725e82</span></a></li>
-				<li><a class="white">ĞşÇà<span>#3d3b4f</span></a></li>
-				<li><a class="white">ÎÚºÚ<span>#392f41</span></a></li>
-				<li><a class="white">Àè<span>#75664d</span></a></li>
-				<li><a class="white">÷ó<span>#5d513c</span></a></li>
-				<li><a class="white">÷îºÚ<span>#665757</span></a></li>
-				<li><a class="white">ç»É«<span>#493131</span></a></li>
-				<li><a class="white">ÃººÚ<span>#312520</span></a></li>
-				<li><a class="white">ÆáºÚ<span>#161823</span></a></li>
-				<li><a class="white">ºÚÉ«<span>#000000</span></a></li>
+				<li><a>ç²¾ç™½<span>#ffffff</span></a></li>
+				<li><a>é“¶ç™½<span>#e9e7ef</span></a></li>
+				<li><a>é“…ç™½<span>#f0f0f4</span></a></li>
+				<li><a>éœœè‰²<span>#e9f1f6</span></a></li>
+				<li><a>é›ªç™½<span>#f0fcff</span></a></li>
+				<li><a>è¹ç™½<span>#e3f9fd</span></a></li>
+				<li><a>æœˆç™½<span>#d6ecf0</span></a></li>
+				<li><a>è±¡ç‰™ç™½<span>#fffbf0</span></a></li>
+				<li><a>ç¼Ÿ<span>#f2ecde</span></a></li>
+				<li><a>é±¼è‚šç™½<span>#fcefe8</span></a></li>
+				<li><a>ç™½ç²‰<span>#fff2df</span></a></li>
+				<li><a>è¼ç™½<span>#f3f9f1</span></a></li>
+				<li><a>é¸­åµé’<span>#e0eee8</span></a></li>
+				<li><a>ç´ <span>#e0f0e9</span></a></li>
+				<li><a>é’ç™½<span>#c0ebd7</span></a></li>
+				<li><a>èŸ¹å£³é’<span>#bbcdc5</span></a></li>
+				<li><a>èŠ±ç™½<span>#c2ccd0</span></a></li>
+				<li><a>è€é“¶<span>#bacac6</span></a></li>
+				<li><a class="white">ç°è‰²<span>#808080</span></a></li>
+				<li><a class="white">è‹è‰²<span>#75878a</span></a></li>
+				<li><a class="white">æ°´è‰²<span>#88ada6</span></a></li>
+				<li><a class="white">é»<span>#6b6882</span></a></li>
+				<li><a class="white">ä¹Œè‰²<span>#725e82</span></a></li>
+				<li><a class="white">ç„é’<span>#3d3b4f</span></a></li>
+				<li><a class="white">ä¹Œé»‘<span>#392f41</span></a></li>
+				<li><a class="white">é»<span>#75664d</span></a></li>
+				<li><a class="white">é»§<span>#5d513c</span></a></li>
+				<li><a class="white">é»é»‘<span>#665757</span></a></li>
+				<li><a class="white">ç¼è‰²<span>#493131</span></a></li>
+				<li><a class="white">ç…¤é»‘<span>#312520</span></a></li>
+				<li><a class="white">æ¼†é»‘<span>#161823</span></a></li>
+				<li><a class="white">é»‘è‰²<span>#000000</span></a></li>
 			</ul>
 		</div>
 

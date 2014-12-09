@@ -1,45 +1,45 @@
 ---
 layout: post
-title: Ò»Ğ©¹¤¾ßÀàµÄÍøÕ¾
+title: ä¸€äº›å·¥å…·ç±»çš„ç½‘ç«™
 pid: 2
 tags: [tools]
-categories: [¿ª·¢]
+categories: [å¼€å‘]
 ---
 
-ÕâÊÇÎÒÔÚĞ´´úÂëµÄÊ±ºò£¬»ıÔÜÏÂÀ´µÄÒ»Ğ©ÊµÓÃµÄ`¹¤¾ßÍøÕ¾`¡£   
-ÔÚÄãÃæ¶ÔÌØ¶¨ÎÊÌâµÄÊ±ºò£¬¿ÉÄÜ¶ÔÄã´óÓĞ°ïÖúÅ¶~   
+è¿™æ˜¯æˆ‘åœ¨å†™ä»£ç çš„æ—¶å€™ï¼Œç§¯æ”’ä¸‹æ¥çš„ä¸€äº›å®ç”¨çš„`å·¥å…·ç½‘ç«™`ã€‚   
+åœ¨ä½ é¢å¯¹ç‰¹å®šé—®é¢˜çš„æ—¶å€™ï¼Œå¯èƒ½å¯¹ä½ å¤§æœ‰å¸®åŠ©å“¦~   
 
 <!-- more -->  
 *****
 
-- Éè¼Æ
-  * [ColorHexa£¨ÑÕÉ«Öµ×ª»»£©](http://www.colorhexa.com/)
-  * [Adobe Kuler£¨ÅäÉ«¹¤¾ß£©](https://kuler.adobe.com/create/color-wheel/)
-  * [WEB°²È«É«](http://www.bootcss.com/p/websafecolors/)
+- è®¾è®¡
+  * [ColorHexaï¼ˆé¢œè‰²å€¼è½¬æ¢ï¼‰](http://www.colorhexa.com/)
+  * [Adobe Kulerï¼ˆé…è‰²å·¥å…·ï¼‰](https://kuler.adobe.com/create/color-wheel/)
+  * [WEBå®‰å…¨è‰²](http://www.bootcss.com/p/websafecolors/)
   
-- Ğ´×÷
+- å†™ä½œ
   * [Prose.io(Github)](http://prose.io/)
-  * [Âí¿Ë·ÉÏó£¨Markdown ±à¼­Æ÷£¬Í¬²½Ó¡Ïó±Ê¼Ç£©](http://maxiang.info/)
-  * [Mahua£¨Markdown ±à¼­Æ÷£©](http://mahua.jser.me/)
-  * [Ubutntu Pastebin£¨ÔÆ¼ôÇĞ°å£©](http://paste.ubuntu.com/)
-  * [JaxEdit£¨LaTex ±à¼­Æ÷£©](http://jaxedit.com/note/)
-  * [°Ù¶ÈÄÔÍ¼£¨Ë¼Î¬µ¼Í¼£©](http://naotu.baidu.com/)
-- Éú³É
-  * [ÌØÊâ·ûºÅ](http://cn.piliapp.com/symbol/#graphic)
-  * [±í¸ñÉú³ÉÆ÷£¨HTML, Markdown, Latex µÈ£©](http://www.tablesgenerator.com/)
-  * [Õ¼Î»Í¼Æ¬](http://c7sky.com/the-top-10-placeholder-image-services.html)
-  * [Á¢·½±´Èû¶ûÇúÏß](http://cubic-bezier.com/)
-  * [²İÁÏ£¨¶şÎ¬Âë£©](http://cli.im/)
+  * [é©¬å…‹é£è±¡ï¼ˆMarkdown ç¼–è¾‘å™¨ï¼ŒåŒæ­¥å°è±¡ç¬”è®°ï¼‰](http://maxiang.info/)
+  * [Mahuaï¼ˆMarkdown ç¼–è¾‘å™¨ï¼‰](http://mahua.jser.me/)
+  * [Ubutntu Pastebinï¼ˆäº‘å‰ªåˆ‡æ¿ï¼‰](http://paste.ubuntu.com/)
+  * [JaxEditï¼ˆLaTex ç¼–è¾‘å™¨ï¼‰](http://jaxedit.com/note/)
+  * [ç™¾åº¦è„‘å›¾ï¼ˆæ€ç»´å¯¼å›¾ï¼‰](http://naotu.baidu.com/)
+- ç”Ÿæˆ
+  * [ç‰¹æ®Šç¬¦å·](http://cn.piliapp.com/symbol/#graphic)
+  * [è¡¨æ ¼ç”Ÿæˆå™¨ï¼ˆHTML, Markdown, Latex ç­‰ï¼‰](http://www.tablesgenerator.com/)
+  * [å ä½å›¾ç‰‡](http://c7sky.com/the-top-10-placeholder-image-services.html)
+  * [ç«‹æ–¹è´å¡å°”æ›²çº¿](http://cubic-bezier.com/)
+  * [è‰æ–™ï¼ˆäºŒç»´ç ï¼‰](http://cli.im/)
   * [GitHub badges](http://shields.io/)
-  * [¼ÙÎÄÉú³ÉÆ÷£¨ÖĞÎÄ£©](http://www.richyli.com/tool/loremipsum/)
-  * [¼ÙÎÄÉú³ÉÆ÷£¨Ó¢ÎÄ£©](http://www.fillerati.com/)
-  * [±©×ßÂş»­](http://baozoumanhua.com/makers/1)
-  * [Âó¿Í£¨±íµ¥£¬ÁªÏµÈË£©](http://www.mikecrm.com/)
+  * [å‡æ–‡ç”Ÿæˆå™¨ï¼ˆä¸­æ–‡ï¼‰](http://www.richyli.com/tool/loremipsum/)
+  * [å‡æ–‡ç”Ÿæˆå™¨ï¼ˆè‹±æ–‡ï¼‰](http://www.fillerati.com/)
+  * [æš´èµ°æ¼«ç”»](http://baozoumanhua.com/makers/1)
+  * [éº¦å®¢ï¼ˆè¡¨å•ï¼Œè”ç³»äººï¼‰](http://www.mikecrm.com/)
   * [LayoutIt! (Bootstrap)](http://www.layoutit.com/)
-- ²âÊÔ
-  * [Rubular£¨ÕıÔò±í´ïÊ½£©](http://rubular.com/)
+- æµ‹è¯•
+  * [Rubularï¼ˆæ­£åˆ™è¡¨è¾¾å¼ï¼‰](http://rubular.com/)
   * [W3C](http://validator.w3.org/)
-  * [SassMeister£¨SASS£©](http://sassmeister.com/) 
+  * [SassMeisterï¼ˆSASSï¼‰](http://sassmeister.com/) 
 
 
 <br/> 
