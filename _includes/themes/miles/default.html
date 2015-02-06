@@ -8,14 +8,17 @@
         <meta name="author" content="{{ site.author.name }}" />
         <meta name="generator" content="Jekyll" />
         <meta name="keywords" content="{% if page.keywords and page.keywords != '' %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}" />
-        <meta name="description" content="{% if page.description and page.description != '' %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+        <meta name="description" content="{% if page.description and page.description != '' %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+        <link rel="stylesheet" href="{{ ASSET_PATH }}/css/bootstrap.min.css" />
         <link rel="stylesheet" href="{{ ASSET_PATH }}/css/style.css" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
         <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed" />
         <link rel="canonical" href="{% if page.is_index %}{{ site.production_url }}{% else %}{{ site.production_url }}{{ page.url }}{% endif %}" />
 		<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
         <!--[if IE 7]>
         <link rel="stylesheet" href="{{ ASSET_PATH }}/css/fontello-ie7.css">
         <![endif]-->
@@ -33,36 +36,40 @@
 		<div id="welcome">
 			<a id="welcome_btn" href="javascript:void(0)">Start<i></i></a>
 		</div>
-        <div id="main" role="main">
-            <div id="header" class="clearfix">
-                <h1><a title="{{ site.title }}" href="/">{{ site.title }}</a></h1>
-                <div class="floatnav">
-                    <span><a title="Archive" href="{{ site.JB.archive_path }}">Archive</a></span>
-                    <span><a title="Tags" href="{{ site.JB.tags_path }}">Tags</a></span>
-                    <span><a title="Categories" href="{{ site.JB.categories_path }}">Categories</a></span>
-                    <span><a title="History" href="{{ site.JB.history_path }}">History</a></span>
-                    <span><a title="About" href="{{ site.JB.about_path }}">About</a></span>
-                    <span><a title="Subscribe" target="_blank" href="{{ site.JB.rss_path }}">Feed</a></span>
+        <div class="col-md-2"></div>
+        <div class="col-md-8 col-xs-12">
+        	<div class="col-md-1"></div>
+            <div class="col-md-10" id="main" role="main">
+                <div id="header" class="clearfix">
+                    <h1><a title="{{ site.title }}" href="/">{{ site.title }}</a></h1>
+                    <div class="floatnav">
+                        <span><a title="Archive" href="{{ site.JB.archive_path }}">Archive</a></span>
+                        <span><a title="Tags" href="{{ site.JB.tags_path }}">Tags</a></span>
+                        <span><a title="Categories" href="{{ site.JB.categories_path }}">Categories</a></span>
+                        <span><a title="History" href="{{ site.JB.history_path }}">History</a></span>
+                        <span><a title="About" href="{{ site.JB.about_path }}">About</a></span>
+                        <span><a title="Subscribe" target="_blank" href="{{ site.JB.rss_path }}">Feed</a></span>
+                    </div>
                 </div>
-            </div>
-            <div class="fixnav">
-                <span><a title="Home" class="icon-home" href="/"></a></span>
-                <span><a title="Archive" class="icon-list" href="{{ site.JB.archive_path }}"></a></span>
-                <span><a title="Tags" class="icon-tags" href="{{ site.JB.tags_path }}"></a></span>
-                <span><a title="Categories" class="icon-bookmark" href="{{ site.JB.categories_path }}"></a></span>
-                <span><a title="History" class="icon-link" href="{{ site.JB.history_path }}"></a></span>
-                <span><a title="About" class="icon-user" href="{{ site.JB.about_path }}"></a></span>
-                <span><a title="Subscribe" target="_blank" class="icon-rss" href="{{ site.JB.rss_path }}"></a></span>
-            </div>
-            <div class="content">
-            {{ content }}
-            </div>
-            <div id="footer" class="content">
-                <div>
-                    &copy; 2014 | powered by jekyll 
+                <div class="fixnav">
+                    <span><a title="Home" class="icon-home" href="/"></a></span>
+                    <span><a title="Archive" class="icon-list" href="{{ site.JB.archive_path }}"></a></span>
+                    <span><a title="Tags" class="icon-tags" href="{{ site.JB.tags_path }}"></a></span>
+                    <span><a title="Categories" class="icon-bookmark" href="{{ site.JB.categories_path }}"></a></span>
+                    <span><a title="History" class="icon-link" href="{{ site.JB.history_path }}"></a></span>
+                    <span><a title="About" class="icon-user" href="{{ site.JB.about_path }}"></a></span>
+                    <span><a title="Subscribe" target="_blank" class="icon-rss" href="{{ site.JB.rss_path }}"></a></span>
                 </div>
-            </div>
-        </div> <!-- main -->
+                <div class="content">
+                {{ content }}
+                </div>
+                <div id="footer" class="content">
+                    <div>
+                        &copy; 2014 | powered by jekyll 
+                    </div>
+                </div>
+            </div> <!-- main -->
+        </div>
         <a id="forkme" title="Fork me on GitHub" target="_blank" href="https://github.com/milesss/milesss.github.com"></a>
         <div id="updown">
             <span><a class="icon-angle-up scroll" href="#main" title="up"></a></span>
@@ -80,14 +87,12 @@
 			
 			if($("#isIndex").length > 0){
 				var url = window.location.href;
-				console.log(url);
+				//console.log(url);
 				if(url.charAt(url.length - 1) == "/"){
 					$('#main').hide();
 					//The random_bg range must same to number of images
 					var random_bg=Math.floor(Math.random()*5+1);  //1-5
 					var bg='url(/assets/themes/miles/images/welcome'+random_bg+'.jpg)';
-					console.log(bg);
-					//console.log(bg);
 					$("#welcome").css("background-image",bg);
 					$('#welcome').show();
 				}
@@ -96,9 +101,7 @@
 			$("#welcome_btn").click(function(){
 				$('#main').show();
 				$('#welcome').animate({ height: 'hide', opacity: 'hide' }, 'slow');
-					
 			});
-			
 		});
         </script>
     </body>
